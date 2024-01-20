@@ -390,16 +390,18 @@ footer .social {
     margin: 0;
   }
 
-  /* Features */
-  .features article {
-    display: flex;
-    align-items: center;
-    flex-flow: wrap;
-    flex-basis: 50%;
+  .features .features-items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  .features .features-item-description {
-    width: 50%;
+  .features article {
+    width: 40%;
+  }
+
+  p.features-item-description {
+    width: 80%;
   }
 
   .reviews article {
