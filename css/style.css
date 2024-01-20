@@ -341,6 +341,101 @@ footer .social {
   /* Style adjustments for high resolution devices */
 }
 
+/* ============================================
+   Author Media Queries
+   ============================================ */
+
+/* ============================================
+   Tablet Styles (768px)
+   ============================================ */
+@media only screen and (min-width: 768px) {
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /* Header */
+
+  header {
+    padding: 33px 0;
+  }
+
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  /* Hero */
+
+  /* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 40%;
+    margin: 0;
+  }
+
+  /* Features */
+  .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    flex-basis: 50%;
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .reviews article div {
+    width: 40%;
+  }
+
+  footer .content-wrapper {
+    width: 65%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+}
+
+/* ============================================
+   Desktop 1200px
+   ============================================ */
+@media only screen and (min-width: 1200px) {
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
