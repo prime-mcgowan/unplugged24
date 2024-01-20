@@ -29,127 +29,176 @@
 
   <body>
     <!-- Start of Header -->
-    <header class="header">
-      <a href="#">
-        <img class="logo" src="#" alt="Unplugged logo" />
-      </a>
+    <header>
+      <div class="content-wrapper role="header" aria-label="Header with logo and
+      nav bar links">
+      <figure>
+        <a href="#">
+          <img src="#" alt="Unplugged logo" />
+        </a>
+      </figure>
+      <div class="header-divider"></div>
       <nav>
         <ul>
           <li>
-            <a href="./faq/index.html" target="_blank"
-              >FAQ</a
-            >
+            <a href="./faq/index.html" target="_blank">FAQ</a>
           </li>
           <li>
-            <a href="./about/index.html" target="_blank"
-              >About</a
-            >
+            <a href="./about/index.html" target="_blank">About</a>
           </li>
         </ul>
       </nav>
+      </div>
     </header>
     <!-- End of Header -->
 
     <!-- Start of Main -->
     <main>
-    <!-- Start Hero Area -->
-    <section class="hero-area">
-      <h1>Retreat from the desk, return refreshed.</h1>
-    </section>
-    <!-- End Hero Area -->
+      <!-- Start Hero Area -->
+      <section class="hero-area">
+        <div class="content-wrapper role="hero-area" aria-label="landing image">
+          <h1>Retreat from the desk, return refreshed.</h1>
+        </div>
+      </section>
+      <!-- End Hero Area -->
 
-    <!-- Start Aside -->
-    <section class="aside">
-      <h3>Want to join the next retreat?</h3>
-      <p>Find out when we are holding our next retreat and how you can sign up to be there!</p>
-      <h3>Find out more</h3>
+      <!-- Start Aside -->
+      <aside>
+        <div class="content-wrapper" role="aside" aria-label="area to sign up for newsletter">
+          <div class="form-description">
+            <h3>Want to join the next retreat?</h3>
+            <p>
+              Find out when we are holding our next retreat and how you can sign up
+              to be there!
+            </p>
+          </div>
+          <div class="form">
+            <h3>Find out more</h3>
+            <input id="email" type="email" placeholder="name@email.com" />
+            <button>Download itinerary</button>
+          </div>
+        </div>
+      </aside>
+      <!-- End Aside -->
 
-      <input id="email" type="email" placeholder="name@email.com"/>
-      <button>Download itinerary</button>
-    </section>
-    <!-- End Aside -->
+      <!-- Start Features -->
+      <section class="features">
+        <div class="content-wrapper" role="features" aria-label="listed features of the retreat">
+        <h2>
+          Have the work week you always dreamed of - without the bad wifi.
+        </h2>
+        <div class="features-items">
+          <article>
+            <p class="icon"></p>
+            <p class="features-items">
+              Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
+            </p>
+          </article>
+          <article>
+            <p class="icon"></p>
+            <p class="features-items">
+              12 private rooms with ensuite bathrooms, 2 group meeting rooms, and
+              4 breakout rooms.
+            </p>
+          </article>
+         <article><p class="icon"></p>
+          <p class="features-items">
+            Private chef team providing on demand meals - just like your team
+            kitchen.
+          </p></article>
+          <article> <p class="icon"></p>
+            <p class="features-items">
+              5 outdoor obstacle courses, including private beach ½ mile from
+              bungalow.
+            </p></article>
+         <article>   <p class="icon"></p>
+          <p class="features-items">
+            Retreat facilitator to manage your day to day activities so you all
+            get a chance to reset.
+          </p></article>
+          <article>  <p class="icon"></p>
+            <p class="features-items">
+              Retreat facilitator to manage your day to day activities so you all
+              get a chance to reset.
+            </p></article>
+        <article>
+          <p class="icon"></p>
+          <p class="features-items">
+            Dedicated computer room for times that you must wifi.
+          </p>
+        </article>
+        </div>
+        </div>
+      </section>
+      <!-- End Features -->
 
-    <!-- Start Features -->
-    <section class="features">
-      <h2>Have the work week you always dreamed of - without the bad wifi.</h2>
-      <article class="features-items">
-        <p class="icon"></p>
-        <p class="feature-description">
-          Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
-        </p>
-        <p class="icon"></p>
-        <p class="feature-description">
-          12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.        </p>
-        <p class="icon"></p>
-        <p class="feature-description">
-          Private chef team providing on demand meals - just like your team kitchen.
-        </p>
-        <p class="icon"></p>
-        <p class="feature-description">
-          5 outdoor obstacle courses, including private beach ½ mile from bungalow.
-        </p>
-        <p class="icon"></p>
-        <p class="feature-description">
-          Retreat facilitator to manage your day to day activities so you all get a chance to reset.
-        </p>
-        <p class="icon"></p>
-        <p class="feature-description">
-          Dedicated computer room for times that you must wifi.
-        </p>
-      </article>  
-    </section>
-    <!-- End Features -->
-
-    <!-- Start Reviews -->
-    <section class="reviews">
-      <h2>Be a better team in 5 days, like this one.</h2>
-      <img src="#" alt="group of women stopped on a trail to take a picture">
-      <h3>LaCrue Bottling Co.<br>October 2018</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-        dolore eu fugiat nulla pariatur. 
-      </p>
-    </section>
-    <!-- End Reviews -->
-
-
+      <!-- Start Reviews -->
+      <section class="reviews">
+        <div class="content-wrapper" role="reviews" aria-label="reviews of past retreat goers">
+          <h2>Be a better team in 5 days, like this one.</h2>
+            <article>
+              <figure>
+                <img
+                  src="#" 
+                  alt="group of women stopped on a trail to take a picture"
+                />
+              </figure>
+              <div>
+                <h3>LaCrue Bottling Co.<br />October 2018</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur.
+                </p>
+              </div>
+          </article>
+        </div>
+      </section>
+      <!-- End Reviews -->
     </main>
     <!-- End of Main -->
 
     <!-- Start of Footer -->
-    <footer class="footer">
-      <h4>Contact</h4>
-      <address>
-        <p>
-          <a href="555-555-555">555-555-5555</a><br />
-          <a href="mailto:hello@unplugged.com"
-            >hello@unplugged.com</a
-          >
-        </p>
-      </address>
-      <h4>Social</h4>
-        <ul>
-          <li>
-            <a href="#" aria-label="Visit our Facebook page"
-              ><ion-icon name="logo-facebook" alt="Facebook logo"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a href="#" aria-label="Visit our Twitter page"
+    <footer>
+      <div class="content-wrapper" role="footer" aria-label="Contact info and social media links">
+        <div class="footer-content">
+        <div class="contact">
+          <h4>Contact</h4>
+          <address>
+            <p>
+              <a href="555-555-555">555-555-5555</a><br />
+              <a href="mailto:hello@unplugged.com">hello@unplugged.com</a>
+            </p>
+          </address>
+        </div>
+        <div class="social">
+          <h4>Social</h4>
+          <div class="social-icons">
+            <p>
+              <a href="#" aria-label="Visit our Facebook page"
+              ><ion-icon name="logo-facebook" alt="Facebook logo"></ion-icon>
+              </a>
+            </p>
+            <p>
+              <a href="#" aria-label="Visit our Twitter page"
               ><ion-icon name="logo-twitter" alt="Twitter logo"></ion-icon
-            ></a>
-          </li>
-          <li>
-            <a href="#" aria-label="Visit our Instagram page"
+              ></a>
+            </p>
+            <p>
+              <a href="#" aria-label="Visit our Instagram page"
               ><ion-icon name="logo-instagram" alt="Instagram logo"></ion-icon
-            ></a>
-          </li>
-        </ul>
+              ></a>
+            </p>
+          </div>   
+        </div>
       </div>
-      <p>Copyright &copy; 2024 | Unplugged</p>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; 2024 | Unplugged</p>
+      </div>
     </footer>
     <!-- End of Footer -->
 
