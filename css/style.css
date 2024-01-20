@@ -391,17 +391,20 @@ footer .social {
   }
 
   .features .features-items {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .features article {
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
   }
 
   p.features-item-description {
-    width: 80%;
+    width: 60%;
   }
 
   .reviews article {
