@@ -119,6 +119,10 @@ header nav ul {
   margin-left: 30px;
 }
 
+img {
+  width: 100%;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -155,6 +159,14 @@ figure {
 .hero-area {
   display: flex;
   justify-content: center;
+  background-image: url("../img/unplugged-retreat.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-area h1 {
+  color: whitesmoke;
 }
 
 /* Aside  */
