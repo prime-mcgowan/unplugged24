@@ -123,6 +123,10 @@ img {
   width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -150,10 +154,10 @@ header {
 main {
 }
 
-figure {
+/* figure {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* Hero Area */
 .hero-area {
@@ -189,8 +193,16 @@ button {
   justify-content: center;
 }
 
+.features {
+  background-image: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .features h2 {
   margin-bottom: 60px;
+  color: whitesmoke;
 }
 
 .features article {
@@ -207,6 +219,7 @@ button {
 
 .features p {
   margin: 0;
+  color: whitesmoke;
 }
 
 /* Reviews */
@@ -217,6 +230,13 @@ button {
 
 .reviews h2 {
   width: 90%;
+}
+
+.reviews .review-img img {
+  /* Make sure the image takes the full space of the figure */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .reviews h3 {
