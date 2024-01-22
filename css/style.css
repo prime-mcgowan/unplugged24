@@ -262,6 +262,14 @@ footer .social {
   margin-bottom: 50px;
 }
 
+/* About - Mobil Styles */
+.mission,
+.map,
+.facilitator-info {
+  display: flex;
+  justify-content: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
