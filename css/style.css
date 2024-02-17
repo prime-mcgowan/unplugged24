@@ -13,6 +13,7 @@
 
 html {
   color: #222;
+  /* 1em = 16px */
   font-size: 1em;
   line-height: 1.4;
 }
@@ -92,12 +93,16 @@ textarea {
 
 /* ======== Base Styles ========= */
 
-p,
-h1,
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #e2e3ed;
+  text-align: left;
+}
+
 h2,
 h3,
 h4 {
-  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -203,6 +208,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
 }
 
 /* ======== Mobile Styles ========= */
@@ -234,12 +243,8 @@ a {
   height: 500px;
 }
 
-/* .hero-area h1 {
-  color: whitesmoke;
-} */
-
 h1.hero-text {
-  font-size: 45px;
+  font-size: 40px;
   margin-top: -30px;
 }
 
@@ -278,6 +283,7 @@ button {
 .features h2 {
   margin-bottom: 60px;
   color: whitesmoke;
+  font-size: 35px;
 }
 
 .features article {
@@ -290,6 +296,10 @@ button {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.features .icon {
+  font-size: 50px;
 }
 
 .features p {
