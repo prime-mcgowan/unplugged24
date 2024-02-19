@@ -349,20 +349,21 @@ footer .content-wrapper {
   width: 60%;
 }
 
-.contact h4 {
-  margin: 20px 0;
-}
-
-footer .contact {
-  margin: 50px 0;
-}
-
+.contact h4,
 .social h4 {
   margin: 20px 0;
 }
 
+footer .contact {
+  /* margin: 50px 0; */
+}
+
+/* .social h4 {
+  margin: 20px 0;
+} */
+
 footer .social {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .copyright {
@@ -629,11 +630,6 @@ section.map {
     justify-content: center; */
   }
 
-  /* p.icon {
-    display: flex;
-    justify-content: center;
-  } */
-
   .review-content {
     display: flex;
     flex-wrap: wrap;
@@ -660,20 +656,15 @@ section.map {
     20 pixels of margin on both sides) */
   }
 
-  /* .reviews article {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  } */
+  /* !The tablet review section css does the following: */
+  /* creates a layout where the image takes up 50% of the container, and the article 
+  takes up the remaining 50%, with a 20-pixel margin between them. 
+  The justify-content: space-between; property ensures they are spaced apart horizontally, 
+  and align-items: center; vertically centers them within the .review-content container. */
 
-  /* .reviews article div {
-    width: 48%;
-  } */
-
-  /* .reviews .review-img img {
-    width: 50%;
-    height: auto;
-  } */
+  footer.contact {
+    margin: 0;
+  }
 
   footer .content-wrapper {
     width: 65%;
@@ -684,11 +675,22 @@ section.map {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20%;
   }
 
-  /* footer .contact {
-    margin-bottom: 0;
+  .social h4 {
+    margin-top: 3px;
+    padding-right: 20px;
+  }
+
+  /* footer .contact h4,
+  footer .social h4 {
+    margin: 20px 0 0;
   } */
+
+  .social-icons p {
+    margin-right: 20px;
+  }
 
   footer .copyright {
     width: 100%;
