@@ -82,7 +82,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Custom styles
+   !Custom styles
    ========================================================================== */
 
 .content-wrapper {
@@ -91,7 +91,9 @@ textarea {
   margin: 50px 0;
 }
 
-/* ======== Base Styles ========= */
+/* ==========================================================================
+   !Base styles
+   ========================================================================== */
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -214,18 +216,9 @@ footer {
   height: 25px;
 }
 
-/* ======== Mobile Styles ========= */
-
-header {
-}
-
-main {
-}
-
-/* figure {
-  display: flex;
-  justify-content: center;
-} */
+/* ==========================================================================
+   !Mobile styles
+   ========================================================================== */
 
 img {
   width: 75%;
@@ -236,7 +229,7 @@ a {
   justify-content: center;
 }
 
-/* Hero Area */
+/* Homepage Hero Area (Mobile) ====================================================*/
 .hero-area {
   display: flex;
   justify-content: center;
@@ -252,7 +245,7 @@ h1.hero-text {
   margin-top: -30px;
 }
 
-/* Aside  */
+/* Homepage Aside  (Mobile) ====================================================*/
 aside {
   display: flex;
   justify-content: center;
@@ -270,7 +263,7 @@ button {
   margin-bottom: 10px;
 }
 
-/* Features */
+/* Homepage Features (Mobile) ====================================================*/
 
 .features {
   display: flex;
@@ -311,7 +304,7 @@ button {
   color: whitesmoke;
 }
 
-/* Reviews */
+/* Homepage Reviews (Mobile) ====================================================*/
 .reviews {
   display: flex;
   justify-content: center;
@@ -333,7 +326,7 @@ button {
   width: 55%;
 }
 
-/* Footer */
+/* Homepage Footer (Mobile) ====================================================*/
 footer {
   display: flex;
   flex-direction: column;
@@ -358,10 +351,6 @@ footer .contact {
   /* margin: 50px 0; */
 }
 
-/* .social h4 {
-  margin: 20px 0;
-} */
-
 footer .social {
   /* margin-bottom: 50px; */
 }
@@ -370,9 +359,7 @@ footer .social {
   margin: 20px 0;
 }
 
-/* -------------------------------------------- */
-/* FAQ - Mobile Styles */
-/* -------------------------------------------- */
+/* FAQ Page (Mobile) ====================================================*/
 .faq {
   display: flex;
   justify-content: center;
@@ -388,9 +375,9 @@ footer .social {
   margin-bottom: 50px;
 }
 
-/* -------------------------------------------- */
-/* About - Mobile Styles */
-/* -------------------------------------------- */
+/* ABOUT Page (Mobile) ====================================================*/
+
+/* ABOUT Mission (Mobile) ====================================================*/
 .mission {
   background-color: #527158;
 }
@@ -403,6 +390,7 @@ figure {
   justify-content: center;
 }
 
+/* ABOUT Map (Mobile) ====================================================*/
 .map address {
   padding-bottom: 10px;
 }
@@ -432,6 +420,7 @@ section.map {
   left: 0;
 }
 
+/* ABOUT Facilitator Info (Mobile) ====================================================*/
 .facilitator-info {
   background-color: #2a423a;
   margin-top: 50px;
@@ -535,12 +524,12 @@ section.map {
    Author Media Queries
    ============================================ */
 
-/* ============================================
-   Tablet Styles (768px)
-   ============================================ */
+/* ==========================================================================
+   !Tablet styles (768px)
+   ========================================================================== */
 @media only screen and (min-width: 768px) {
   .content-wrapper {
-    max-width: 800px;
+    max-width: 680px;
     margin: 100px 0;
   }
 
@@ -562,6 +551,7 @@ section.map {
 
   header nav {
     width: 20%;
+    margin-right: 100px;
   }
 
   header nav ul {
@@ -571,11 +561,11 @@ section.map {
   /* Hero */
   .hero-area {
     margin: 0;
+    height: 700px;
   }
 
   h1.hero-text {
-    font-size: 50px;
-    margin-top: -80px;
+    font-size: 60px;
   }
 
   /* Aside */
@@ -675,7 +665,7 @@ section.map {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20%;
+    margin: 0 25px;
   }
 
   .social h4 {
@@ -697,10 +687,58 @@ section.map {
   }
 }
 
-/* ============================================
-   Desktop 1200px
-   ============================================ */
+/* ==========================================================================
+   !Desktop styles
+   ========================================================================== */
 @media only screen and (min-width: 1200px) {
+  .content-wrapper {
+    max-width: 960px;
+    margin: 100px 0;
+  }
+
+  header {
+    padding: 15px 0;
+  }
+
+  /* Hero */
+  .hero-area {
+    margin: 0;
+    height: 600px;
+  }
+
+  h1.hero-text {
+    width: 80%;
+    margin-top: -75px;
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
+
+  /* Features */
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    flex-basis: 33%;
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 80%;
+    padding-left: 25px;
+  }
+
+  .review-content {
+    margin-top: 50px;
+  }
 }
 
 /* ==========================================================================
