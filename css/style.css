@@ -537,6 +537,10 @@ section.map {
     width: 100%;
   }
 
+  header figure a {
+    margin-left: -60px;
+  }
+
   header nav {
     width: 20%;
     margin-right: 100px;
@@ -652,6 +656,29 @@ section.map {
   footer .copyright {
     width: 100%;
   }
+
+  /* faq page (tablet) */
+  .faq {
+    display: flex;
+    justify-content: center;
+    background-color: #527158;
+  }
+
+  .faq h2 {
+    margin-bottom: 40px;
+  }
+
+  .questions-and-answers {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between; /* Adjust as needed */
+    width: 100%;
+  }
+
+  .qa-pair {
+    flex-basis: calc(50% - 40px); /* Set to 50% width with some spacing */
+    margin-bottom: 20px; /* Add some margin between items */
+  }
 }
 
 /* ==========================================================================
@@ -709,6 +736,10 @@ section.map {
     flex-basis: 33%;
   }
 
+  p.features-item-description {
+    margin-top: 10px;
+  }
+
   /* Reviews */
   .reviews article div {
     width: 80%;
@@ -720,7 +751,7 @@ section.map {
   }
 
   .footer-content {
-    margin: 0 175px;
+    margin: 0 100px;
   }
 }
 
