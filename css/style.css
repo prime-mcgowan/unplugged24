@@ -697,6 +697,19 @@ section.map {
     flex-basis: calc(50% - 40px); /* Set to 50% width with some spacing */
     margin-bottom: 20px; /* Add some margin between items */
   }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    flex-basis: calc(50% - 30px);
+  }
 }
 
 /* ==========================================================================
