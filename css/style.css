@@ -377,7 +377,7 @@ footer .content-wrapper {
 
 .mission,
 .map,
-.facilitator-info,
+.contact-section,
 figure {
   display: flex;
   justify-content: center;
@@ -414,7 +414,7 @@ section.map {
 }
 
 /* ABOUT Facilitator Info (Mobile) ====================================================*/
-.facilitator-info {
+.contact-section {
   background-color: #2a423a;
   margin-top: 50px;
 }
@@ -676,6 +676,24 @@ section.map {
   }
 
   .qa-pair {
+    flex-basis: calc(50% - 40px); /* Set to 50% width with some spacing */
+    margin-bottom: 20px; /* Add some margin between items */
+  }
+
+  /* About page (tablet) */
+  .mission {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mission-statements {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: center; /* Adjust as needed */
+    width: 100%;
+  }
+
+  .statement {
     flex-basis: calc(50% - 40px); /* Set to 50% width with some spacing */
     margin-bottom: 20px; /* Add some margin between items */
   }
