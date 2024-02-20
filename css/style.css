@@ -689,7 +689,7 @@ section.map {
   .mission-statements {
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next row */
-    justify-content: center; /* Adjust as needed */
+    justify-content: space-between; /* Adjust as needed */
     width: 100%;
   }
 
