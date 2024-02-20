@@ -101,6 +101,7 @@ body {
   text-align: left;
 }
 
+h1.hero-text,
 h2,
 h3,
 h4 {
@@ -347,14 +348,6 @@ footer .content-wrapper {
   margin: 20px 0;
 }
 
-footer .contact {
-  /* margin: 50px 0; */
-}
-
-footer .social {
-  /* margin-bottom: 50px; */
-}
-
 .copyright {
   margin: 20px 0;
 }
@@ -533,32 +526,24 @@ section.map {
     margin: 100px 0;
   }
 
-  /* Header */
+  /* Homepage Header (Tablet) ====================================================*/
   header {
     padding: 33px 0;
   }
 
   header .content-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 100%;
   }
-
-  /* img {
-    padding-right: 400px;
-    width: 50%;
-  } */
 
   header nav {
     width: 20%;
     margin-right: 100px;
+    margin-top: 3px;
   }
 
-  header nav ul {
-    justify-content: space-between;
-  }
-
-  /* Hero */
+  /* Homepage Hero (Tablet) ====================================================*/
   .hero-area {
     margin: 0;
     height: 700px;
@@ -568,7 +553,7 @@ section.map {
     font-size: 60px;
   }
 
-  /* Aside */
+  /* Homepage Aside (Tablet) ====================================================*/
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -582,44 +567,30 @@ section.map {
     margin: 0;
   }
 
+  /* Homepage Features (Tablet) ====================================================*/
   .features .features-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: center; */
-
     justify-content: space-between;
     align-items: flex-start;
   }
 
   .features article {
     width: 48%;
-    /* margin: 10px 0 20px; */
     text-align: center;
   }
 
-  /* .features article {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-  } */
-
   .features .icon {
     font-size: 50px;
-    /* display: flex;
-    justify-content: center; */
-
-    /* margin-bottom: 10px; */
   }
 
   p.features-item-description {
     width: 80%;
     margin: 0 auto;
-    /* padding-top: 10px; */
-    /* display: flex;
-    justify-content: center; */
   }
 
+  /* Homepage Review (Tablet) ====================================================*/
   .review-content {
     display: flex;
     flex-wrap: wrap;
@@ -646,12 +617,13 @@ section.map {
     20 pixels of margin on both sides) */
   }
 
-  /* !The tablet review section css does the following: */
+  /* *The tablet review section css does the following: */
   /* creates a layout where the image takes up 50% of the container, and the article 
   takes up the remaining 50%, with a 20-pixel margin between them. 
   The justify-content: space-between; property ensures they are spaced apart horizontally, 
   and align-items: center; vertically centers them within the .review-content container. */
 
+  /* Homepage Footer (Tablet) ====================================================*/
   footer.contact {
     margin: 0;
   }
@@ -673,11 +645,6 @@ section.map {
     padding-right: 20px;
   }
 
-  /* footer .contact h4,
-  footer .social h4 {
-    margin: 20px 0 0;
-  } */
-
   .social-icons p {
     margin-right: 20px;
   }
@@ -688,7 +655,7 @@ section.map {
 }
 
 /* ==========================================================================
-   !Desktop styles
+   !Desktop styles (1200px)
    ========================================================================== */
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
@@ -696,8 +663,20 @@ section.map {
     margin: 100px 0;
   }
 
-  header {
+  header .content-wrapper {
+    max-width: 1150px;
+  }
+  /* header {
     padding: 15px 0;
+  } */
+
+  header figure a {
+    margin-left: -50px;
+    margin-right: 350px;
+  }
+
+  header nav ul {
+    margin-top: 25px;
   }
 
   /* Hero */
@@ -738,6 +717,10 @@ section.map {
 
   .review-content {
     margin-top: 50px;
+  }
+
+  .footer-content {
+    margin: 0 175px;
   }
 }
 
