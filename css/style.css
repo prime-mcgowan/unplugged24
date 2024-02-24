@@ -207,6 +207,15 @@ footer {
   height: 25px;
 }
 
+.developer-credit p {
+  text-decoration: underline;
+}
+
+#new-tab {
+  margin-left: 3px;
+  font-size: 10px;
+}
+
 /* ==========================================================================
    !Mobile styles
    ========================================================================== */
