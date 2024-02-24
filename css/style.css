@@ -166,6 +166,11 @@ a {
   text-decoration: none;
 }
 
+a[aria-current] {
+  font-weight: bold;
+  border-bottom: 1px solid white;
+}
+
 footer {
   display: flex;
   flex-direction: column;
