@@ -84,7 +84,8 @@ textarea {
    !Custom styles
 ========================================================================== */
 *:focus {
-  outline: 4px solid rgb(195, 231, 141);
+  font-weight: bold;
+  outline: 2px solid rgb(195, 231, 141);
 }
 
 button:focus {
@@ -167,8 +168,15 @@ a {
 }
 
 a[aria-current] {
-  font-weight: bold;
   border-bottom: 1px solid white;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 footer {
