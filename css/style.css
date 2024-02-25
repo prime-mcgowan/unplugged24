@@ -207,8 +207,9 @@ footer {
   height: 25px;
 }
 
-.developer-credit p {
+.developer-name {
   text-decoration: underline;
+  margin-left: 3px;
 }
 
 #new-tab {
@@ -801,6 +802,11 @@ footer .content-wrapper {
   /* Homepage Footer (Desktop) ====================================================*/
   .footer-content {
     margin: 0 100px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-around;
   }
 
   /* ABOUT page (Desktop) ====================================================*/
