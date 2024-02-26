@@ -90,6 +90,22 @@ textarea {
   outline: 5px solid #98d22d;
 }
 
+.skip a {
+  position: absolute;
+  top: 5px;
+  padding-top: 5px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skip a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 button:focus {
   background-color: rgb(23, 36, 4);
 }
