@@ -106,10 +106,7 @@ textarea {
   height: auto;
 }
 
-button:focus {
-  background-color: rgb(23, 36, 4);
-}
-
+button:focus,
 button:hover {
   background-color: black;
 }
@@ -137,9 +134,15 @@ h1.hero-text {
   color: #ffffff;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+}
+
 h2 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.875em;
+  font-size: 1.5em;
   color: #ffffff;
 }
 
@@ -842,10 +845,10 @@ footer .content-wrapper {
     margin: 0 100px;
   }
 
-  .copyright {
+  /* .copyright {
     display: flex;
     justify-content: space-around;
-  }
+  } */
 
   /* ABOUT page (Desktop) ====================================================*/
   .map figure {
