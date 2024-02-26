@@ -85,7 +85,9 @@ textarea {
 ========================================================================== */
 *:focus {
   font-weight: bold;
-  outline: 2px solid rgb(195, 231, 141);
+  /* outline: 2px solid rgb(195, 231, 141); */
+  /* outline: 2px solid #c3e78d; */
+  outline: 5px solid #98d22d;
 }
 
 button:focus {
