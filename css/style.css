@@ -116,7 +116,7 @@ html {
 }
 
 .content-wrapper {
-  /* outline: 3px dotted red; */
+  outline: 3px dotted red;
   width: 90%;
   margin: 50px 0;
 }
@@ -154,7 +154,8 @@ h4 {
 }
 
 p {
-  font-size: 0.875em;
+  font-size: 1;
+  /* font-size: 0.875em; */
   line-height: 1.285;
   color: #ffffff;
 }
@@ -434,8 +435,8 @@ footer .content-wrapper {
 /* ABOUT Mission (Mobile) ====================================================*/
 .mission {
   background-color: #527158;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .statement p {
@@ -740,7 +741,7 @@ footer .content-wrapper {
   }
 
   .mission-statements {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap; /* Allow items to wrap to the next row */
     justify-content: space-between; /* Adjust as needed */
     width: 100%;
